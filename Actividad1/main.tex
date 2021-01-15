@@ -1,0 +1,190 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[top = 2.0 cm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{setspace}
+
+\title{Análisis de los datos climatológicos de la ciudad Lerdo, Durango}
+\author{José Agustín Parada Peralta\\
+Departamento de Física\\
+Universidad de Sonora}
+\date{15 de enero del 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+En el presente, se analizará la información estadística climatológica proporcionada por CONAGUA, de una estación elegida (posteriormente especificada), ubicada en la ciudad Lerdo, en el estado de Durango.\\\\El motivo de elección se debe a que en dicha ciudad habitan amigos cercanos míos. De igual manera, otro motivo de la elección por el bienestar experimentado cuando visité esa ciudad.
+
+\section{Acerca de la estación}
+\subsection{Datos de la estación}
+
+\begin{table}[h]
+\begin{center}
+    \begin{tabular}{|c||c|}
+    \hline
+        \textbf{Estación:} & 10163 \\ \hline
+        \textbf{Nombre:} & Villa Juárez (CFE) \\ \hline
+        \textbf{Estado:} & Durango \\ \hline
+        \textbf{Municipio:} & Lerdo \\ \hline
+        \textbf{Longitud:} & -103.5333 \\ \hline
+        \textbf{Latitud:} & 25.5667 \\ \hline
+        \textbf{Altura (metros sobre nivel del mar):} & 1,160 \\ \hline
+        \textbf{Datos desde:} & 1981 \\ \hline
+        \textbf{Hasta:} & 2013 \\ \hline
+    \end{tabular}
+    \end{center}
+    \caption{Información de la estación.}
+    \end{table}
+
+
+\subsection{Acerca de Lerdo}
+
+Mencinado anteriormente, Lerdo es una ciudad del estado de Durango la cual, en conjunto con Gómez Palacio, Torreón (Coahuila) y otras localidades de ambos estados, conforman a la Comarca Lagunera.
+Debe su nombre al liberal \textit{Miguel Lerdo de Tejada}.\\\\Esta ciudad contaba, en 2010, con 141,043 habitantes. Es también, junto con los demás municipios de Gómez Palacio, Torreón entre otros, una ciudad que cuenta con muchas elevaciones y zonas montañosas tales como la Sierra del Rosario, la Sierra de Mapimí, la Sierra España, entre otras.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=8cm]{lerdo.png}
+        \caption{\small{Imágenes satelitales de la estación 10163 en Lerdo, Durango. Imagen satelital de Google Maps.}}
+    \end{figure}
+\clearpage
+
+\section{Datos en gráficas}
+\subsection{Lluvias y evaporación por mes}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=7cm]{lluv_mes.png}
+        \caption{Lluvias por mes.}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=7cm]{evap_mes.png}
+        \caption{Evaporación por mes.}
+    \end{figure}
+
+Se puede ver de la figura 2 que los meses en los que, en promedio, mayor lluvia se produce son \textbf{junio}, \textbf{julio}, \textbf{agosto} y \textbf{septiembre}. Por porte de la figura 3, son los meses de marzo hasta julio en los que mayor evaporación se produce. De esta forma, en los meses de junio y julio se producen grandes cantidades de lluvias y evaporación.
+
+\subsection{Promedio y máximo de precipitación}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=12cm,width=14cm]{prom-max_lluv.png}
+        \caption{Promedio y máximo de lluvia por década-mes.}
+    \end{figure}
+    
+De la figura 4 debemos destacar que, entre las décadas de 1980, 1990 y 2000, el mayor promedio del nivel de lluvia se produjo en la década del 2000. Sin embargo, posee los menores máximos relativo a los meses correspondientes.\\
+También, destaquemos que la \textit{década} del 2010 consiste solo de tres años, pues los datos se nos proporcionan hasta el 2013. Aun así, durante los tres primeros años de la década del 2010, son los menores promedios y máximos de lluvia en comparación con las demás décadas.
+\clearpage
+\subsection{Promedio de lluvias diarias}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=12cm,width=14cm]{prom_diar_lluv.png}
+        \caption{Promedio de lluvias diarias.}
+    \end{figure}
+
+Podemos apreciar con claridad que se produce mayor cantidad de lluvia en el intervalo de meses mencionado con anterioridad, empezando desde junio y terminando en septiembre-octubre.
+\clearpage
+
+\subsection{Distribución de la lluvia en rangos de 5 mm}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=12cm,width=14cm]{dist_lluv_rang5.png}
+    \caption{Distribución de la lluvia en rangos de 5 mm.}
+\end{figure}
+
+Podemos notar que la enorme mayoría de los casos de lluvia se dan con un nivel menor que 5 milímetros. A partir de ahí, los casos disminuyen drásticamente según aumenta el nivel de lluvia. Aproximándose de buena manera a la curva potencial. Con lo cual, podemos afirmar que son inusuales las ocasiones en las que la lluvia supera los 25 milímetros.
+\clearpage
+
+\subsection{Registro diario de temperaturas máxima y mínima}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=12cm,width=14cm]{temp_min_max.png}
+    \caption{Registro diario de temperaturas máxima y mínima.}
+\end{figure}
+
+Podemos ver que, comenzando el año 2000, las temperaturas mínimas ya superan los 0°C, lo que puede indicar un calentamiento de la zona. También podemos destacar que alrededor de los finales del año 1997 y principios de 1998 se produjo la menor temperatura mínima y la menor temperatura máxima. Asimismo, el mismo año 1998 se dieron las mayores temperaturas máxima y mínima.
+\clearpage
+
+\subsection{Temperaturas máximas y mínimas}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=8cm,width=14cm]{temp_min.png}
+    \caption{Temperaturas mínimas}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=8cm,width=14cm]{temp_max.png}
+    \caption{Temperaturas máximas}
+\end{figure}
+
+Podemos percatarnos de que ambas temperaturas mínimas y máximas aumentan y disminuyen de la misma forma a lo largo de los meses. Con lo cual, las mayores temperaturas mínimas promedio se dan entre junio y julio. En la cercanía, las mayores temperaturas máximas promedio se alcanzan entre mayo y junio.
+\clearpage
+
+\subsection{Promedio Diario de Lluvia y Temperatura Media por Mes}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=14cm,width=14cm]{PROM_diar_lluv_temp_mes.png}
+    \caption{Promedio Diario de Lluvia y Temperatura Media por Mes}
+\end{figure}
+
+Se es capaz de ver que el aumento del promedio de lluvia viene precedido por el aumento de la temperatura media.
+\clearpage
+
+\subsection{Temperaturas Mínima, Media y Máxima por Estación del Año}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=14cm,width=14cm]{temp_min_med_mx_estañ.png}
+    \caption{Temperaturas Mínima, Media y Máxima por Estación del Año}
+\end{figure}
+
+Apreciamos que la temperatura media varía de modo regulado, sin muchas variaciones con una temperatura máxima dada en verano. La menor temperatura mínima media se dio en otoño. De igual forma, la mayor temperatura máxima sucedió en primavera.
+\clearpage
+
+\subsection{Lluvia Promedio y Máxima, por Estación del Año}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=14cm,width=14cm]{lluv_prom_max_estañ.png}
+    \caption{Lluvia Promedio y Máxima, por Estación del Año}
+\end{figure}
+
+Notemos que la mayor lluvia promedio ocurrde durante el verano, al igual que el máximo de lluvia.
+\clearpage
+
+\section{Comentarios y análisis generales}
+
+Gracias a los datos, podemos decir que la ciudad Lerdo es un lugar en el cual, durante todo el año (aunque con más frecuencia y cantidad durante el verano), tienen lugar lluvias. Estas, en su mayoría, no superan los 5 milímetros. No obstante, en todas las estaciones del año se llegaron a registrar considerables precipitaciones que superan los 40 mm.\\\\De manera similar, concluimos que en Lerdo, en promedio, durante todo el año se mantiene con clima fresco, variando entre los 13.6 °C y los 25.9 °C (en promedio). Sin embargo, se pueden llegar a dar máximas de hasta casi 45 °C y mínimas de hasta -11 °C. Se cree que las temperaturas se mantienen así gracias a la notable cantidad de árboles presentes en la ciudad.
+
+\section{Impresiones sobre la actividad y retroalimentación}
+
+Me pareció una actividad interesante y original de realizar. Fue para mí una manera adecuada de familiarizarme y profundizar más en el entorno \LaTeX.\\\\ Por otro lado, respecto a las cuestiones de retroalimentación:
+\begin{enumerate}
+    \item Me pareció una actividad sencilla de llevar a cabo, ideal para introducir \LaTeX\ a alguien sin conocimiento previo sin sobresaturar a la persona con la cantidad o dificultad de las labores a realizar.
+    \item El reto me fue de interés por el aprendizaje en el uso de  \LaTeX\ y en la labor de búsqueda de solución a los problemas que se fuesen presentando.
+    \item Lo que más se me dificultó (aunque no mucho, fui capaz de encontrarle solución rápidamente) fue el correcto posicionamiento de las imágenes. Fuera de ello, la actividad no presentó dificultad.
+    \item Lo que quizá me haya resultado un poco aburrido es la temática del reporrte (climatológico), aunque no fue de mucha importancia.
+    \item Recomendaría, para la mejora de la actividad, que trate de algún otro tema (o del presente pero incluyendo algo de la física del clima) relacionado a la física. Asimismo, hubiese sido agradable o beneficioso si en la actividad se hubiese incluido, a manera de introducción, de la parte matemática de \LaTeX\ en cuanto a las opciones y recursos que tiene para ello.
+    \item El grado de dificultad de la actividad me pareció bajo, el cual considero el necesario y el que yo asignaría a esta actividad.
+\end{enumerate}
+\clearpage
+\textbf{\Large{Bibliografía:}}
+\begin{itemize}
+    \item Datos y gráficas de la estación 10163 provenientes de \textit{Información Estadística Climatológica}, de CONAGUA.
+    \item Información de la ciudad Lerdo de Wikipedia.
+\end{itemize}
+
+\end{document}
